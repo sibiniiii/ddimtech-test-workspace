@@ -15,7 +15,7 @@ module "vpc" {
   enable_dns_hostnames = var.enable_dns_hostnames
   enable_dns_support   = var.enable_dns_support
   vpc_tag              = var.vpc_tag
-  tags                 = local.tags
+  tags                 = var.tags
 
 }
 
