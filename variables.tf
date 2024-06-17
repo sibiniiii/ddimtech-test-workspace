@@ -28,3 +28,8 @@ variable "vpc_tag" {
   type    = string
   default = "sb_main_vpc"
 }
+
+variable "tags" {
+  type    = string
+  default = "sb_by_terraform"
+}
