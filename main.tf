@@ -9,7 +9,7 @@
 
 module "vpc" {
   source  = "tfe.ddimtech.click/ddimtech/vpc/aws"
-  version = "1.0.0"
+  version = "2.0.0"
 
   vpc_cidr_block       = var.vpc_cidr_block
   enable_dns_hostnames = var.enable_dns_hostnames
